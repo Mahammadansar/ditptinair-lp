@@ -38,7 +38,7 @@
         <!-- page preloader close -->
 
 
-      <header class="transparent header-light header-float">
+        <header class="transparent header-light header-float">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -64,7 +64,7 @@
                                             <li><a class="menu-item" href="#section-overview">Overview</a></li>
                                             <li><a class="menu-item" href="#section-projects">Projects</a>
                                             </li>
-                                             <li><a class="menu-item" href="#section-testimonials">Testimonials</a></li>
+                                            <li><a class="menu-item" href="#section-testimonials">Testimonials</a></li>
                                             <li><a class="menu-item" href="#section-contact">Contact</a></li>
                                             <li><a class="menu-item" href="#section-faq">Faq</a></li>
                                         </ul>
@@ -151,28 +151,14 @@
                 </div>
             </div>
             <div class="vertical-center">
-                <div class="swiper">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <div class="swiper-inner"
-                                data-bgimage="url(https://c4.wallpaperflare.com/wallpaper/460/214/494/city-dubai-cityscape-blue-wallpaper-preview.jpg)">
-                                <div class="sw-overlay op-4"></div>
-                            </div>
-                        </div>
-
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <div class="swiper-inner"
-                                data-bgimage="url(https://c4.wallpaperflare.com/wallpaper/460/214/494/city-dubai-cityscape-blue-wallpaper-preview.jpg)">
-                                <div class="sw-overlay op-4"></div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
+                <div class="video-container">
+                    <video autoplay muted loop playsinline class="hero-video">
+                        <source src="video-new.mp4" type="video/mp4">
+                        <source src="your-video-file.webm" type="video/webm">
+                        <!-- Fallback background image if video doesn't load -->
+                        <div class="video-fallback" style="background-image: url(https://c4.wallpaperflare.com/wallpaper/460/214/494/city-dubai-cityscape-blue-wallpaper-preview.jpg);"></div>
+                    </video>
+                    <div class="video-overlay op-4"></div>
                 </div>
             </div>
 
@@ -214,7 +200,7 @@
                                 Dipti Nair</h1>
                             <p class="subtitle wow fadeInUp" data-wow-delay=".0s">Indus Real Estate – DMCC Branch</p>
 
-                            <h3>“Real estate isn’t just about buildings, it’s about building trust.”</h3>
+                            <h3>"Real estate isn't just about buildings, it's about building trust."</h3>
                             <a class="btn-main fx-slide mt-4 wow fadeInUp whatsappBtn" data-wow-delay="1s"
                                 href="#section-contact"><span>Connect on Whatsapp</span></a>
                         </div>
@@ -222,266 +208,478 @@
                 </div>
         </section>
 
-        <section class="bg-dark section-dark text-light" id="section-projects">
+        <section class="relative bg-dark section-dark text-light">
 
             <div class="container relative z-2">
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-12 text-center">
-                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Exclusive Properties of Deepanshu</h2>
+                        <!-- <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Elevated Comfort</div> -->
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Exclusive Properties of Dipti</h2>
                     </div>
                 </div>
-            </div>
 
-            <div class="container-fluid">
-                <div class="row">
+                <!-- Search and Filter Section -->
+                <div class="row g-4 mb-4">
                     <div class="col-lg-12">
-                        <div class="owl-custom-nav menu-float" data-target="#room-carousel">
-                            <a class="btn-next"></a>
-                            <a class="btn-prev"></a>
-
-                            <div id="room-carousel" class="owl-2-cols-center owl-carousel owl-theme">
-                                <!-- room begin -->
-                                <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">Featured</span>
-                                            <img src="MBI.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="Golf-meadow.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">Golf Meadow – Emaar South</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Emaar South, Dubai South (DWC), Dubai</span>
-                                                <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>3-Bedroom</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Apartment</span>
-                                                <span class="badge bg-light text-dark">Selling Peice 2,996,888
-                                                    AED</span>
-                                            </div>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
+                        <div class="search-filter-container p-4 rounded" style="background-color: rgba(255,255,255,0.1);">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <input type="text" id="searchInput" class="form-control" placeholder="Search properties...">
                                 </div>
-                                <!-- room end -->
-
-                                <!-- room begin -->
-                                <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">Featured</span>
-                                            <img src="MBI.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="Golf-verge.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">Golf Verge – Emaar South</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Emaar South, Dubai South (DWC), Dubai</span>
-                                                <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>3-Bedroom</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Apartment</span>
-                                                <span class="badge bg-light text-dark">Selling Price 3,273,888
-                                                    AED</span>
-                                            </div>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
+                                <div class="col-md-2">
+                                    <select id="locationFilter" class="form-control">
+                                        <option value="">All Locations</option>
+                                        <option value="Al Furjan">Al Furjan</option>
+                                        <option value="Discovery Gardens">Discovery Gardens</option>
+                                        <option value="Arjan">Arjan</option>
+                                        <option value="Jumeirah Village Circle">JVC</option>
+                                    </select>
                                 </div>
-                                <!-- room end -->
-
-                                <!-- room begin -->
-                               <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">New Launch</span>
-                                            <img src="MBI.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="Hayat-residences.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">Hayat Residences – Dubai South</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Dubai South (Dubai World Central), Dubai</span>
-                                                <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>3, 4, and 5-Bedroom</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Townhouse</span>
-                                                <span class="badge bg-light text-dark">Starting from 3,400,000
-                                                    AED</span>
-                                            </div>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
+                                <div class="col-md-2">
+                                    <select id="bedroomFilter" class="form-control">
+                                        <option value="">All Bedrooms</option>
+                                        <option value="Studio">Studio</option>
+                                        <option value="1">1 Bedroom</option>
+                                        <option value="2">2 Bedrooms</option>
+                                        <option value="3">3 Bedrooms</option>
+                                    </select>
                                 </div>
-                                <!-- room end -->
-
-                                <!-- room begin -->
-                                <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">New Launch</span>
-                                            <img src="MBI.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="Samana-Hills.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">Samana Hills South</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Dubai South (Dubai Industrial City), Dubai</span>
-                                                <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>Studio, 1 & 2-Bedroom</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Apartment</span>
-                                                <span class="badge bg-light text-dark">Starting from 570,000
-                                                    AED</span>
-                                            </div>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
+                                <div class="col-md-2">
+                                    <select id="priceFilter" class="form-control">
+                                        <option value="">All Prices</option>
+                                        <option value="0-700000">Under 700K AED</option>
+                                        <option value="700000-1200000">700K - 1.2M AED</option>
+                                        <option value="1200000-2000000">1.2M - 2M AED</option>
+                                        <option value="2000000-999999999">2M+ AED</option>
+                                    </select>
                                 </div>
-                                <!-- room end -->
-
-                                <!-- room begin -->
-                               <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">Off-Plan</span>
-                                            <img src="MBI.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="Azizi-Venice.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">Azizi Venice</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Dubai South (Dubai World Central), Dubai</span>
-                                                <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>Studios, 1, 2 & 3-Bedroom</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Apartment</span>
-                                                <span class="badge bg-light text-dark">Starting from 650,000
-                                                    AED</span>
-                                            </div>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
+                                <div class="col-md-2">
+                                    <button id="clearFilters" class="btn btn-outline-light w-100">Clear Filters</button>
                                 </div>
-                                <!-- room end -->
-
-                                <!-- room begin -->
-                               <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">New Launch</span>
-                                            <img src="MBI.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="The-eighty.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">The Eighty Three</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Dubai South, Dubai</span>
-                                                <!-- <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>3-Bedroom</span> -->
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Apartment</span>
-                                                <span class="badge bg-light text-dark">Starting from 464,000
-                                                    AED</span>
-                                            </div>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item">
-                                    <div class="hover overflow-hidden relative text-light text-center">
-                                        <div class="overflow-hidden">
-                                            <span
-                                                class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
-                                                style="font-size: 0.85rem;">New Launch</span>
-                                            <img src="MBI.webp" class="hover-scale-1-1 w-100" alt="">
-                                        </div>
-                                        <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
-                                            <a class="btn-main btn-line fx-slide"
-                                                href="south-sqaure.html"><span>View Details</span></a>
-                                        </div>
-                                        <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
-                                        <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="mb-0">South Square</h3>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span>Dubai South, Dubai</span>
-                                                <span class="badge bg-dark"> <i
-                                                        class="fa-solid fa-bed me-1"></i>1–3 Bedroom</span>
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center mt-2">
-                                                <span class="badge bg-dark">Residential</span>
-                                                <span class="badge bg-light text-dark">Starting from 1,100,000 
-                                                    AED</span>
-                                            </div>
-                                        </div>
-                                        <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
-                                    </div>
-                                </div>
-                                <!-- room end -->
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
+                <div class="row g-4" id="propertiesContainer">
+                    <div class="col-md-6 property-item" data-location="Al Furjan" data-bedrooms="1" data-price="1050000" data-name="Samia Azizi">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <!-- <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span> -->
+                                <img src="Azizi Samia/AZSAHP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Samia-Azizi.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">Samia Azizi</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Al Furjan, Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>1-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Selling Price 1,050,000
+                                        AED</span>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                     <div class="col-md-6 property-item" data-location="Discovery Gardens" data-bedrooms="1" data-price="1100000" data-name="Enqlave by Aqasa">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <!-- <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span> -->
+                                <img src="Enqlave Aqasa/EAQHP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Enqlave .html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">Enqlave by Aqasa</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Discovery Gardens, Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>1-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Selling Price AED 1,100,000
+                                        AED</span>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+               <div class="col-md-6 property-item" data-location="Arjan" data-bedrooms="2" data-price="670000" data-name="Floarea Grande">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <!-- <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span> -->
+                                <img src="Floarea Grande/FGHP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Floarea.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">Floarea Grande</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Arjan, Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>2-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Starting Price 670,000
+                                        AED</span>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                   <div class="col-md-6 property-item" data-location="Arjan" data-bedrooms="3" data-price="84999" data-name="Green Diamond 1 – A">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <!-- <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span> -->
+                                <img src="Green Diamond/GDHP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Green-diamond.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">Green Diamond 1 – A</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Arjan, Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>3-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Rental Price AED 84,999/year</span>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                   <div class="col-md-6 property-item" data-location="Jumeirah Village Circle" data-bedrooms="Studio" data-price="674999" data-name="Binghatti Circle">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <!-- <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span> -->
+                                <img src="Circle/CRI.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Binghatti-circle.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">Binghatti Circle</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span> Jumeirah Village Circle (JVC), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>Studio, 1, 2, and 3-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Starting Price 674,999 AED </span>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                   <div class="col-md-6 property-item" data-location="Jumeirah Village Circle" data-bedrooms="1" data-price="1200000" data-name="Binghatti Grove">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <!-- <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span> -->
+                                <img src="Grove/GRI.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Binghatti-Grove.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">Binghatti Grove</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Jumeirah Village Circle (JVC), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>1, 2, and 3-Bedroom </span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Starting Price 1,200,000 AED</span>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 property-item" data-location="Jumeirah Village Circle" data-bedrooms="Studio" data-price="748130" data-name="ALTA V1EW Skyhomes">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <!-- <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span> -->
+                                <img src="O1 ALTA V1EW/AV1HP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Binghatti-Grove.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">ALTA V1EW Skyhomes</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Jumeirah Village Circle (JVC), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>Studio, 1, and 2-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Starting Price AED 748,130</span>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 property-item" data-location="Jumeirah Village Circle" data-bedrooms="1" data-price="0" data-name="RA1N Residence">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <!-- <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span> -->
+                                <img src="O1 RA1N/R1HP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Ra1n-residence.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">RA1N Residence</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Jumeirah Village Circle (JVC), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>1 and 2-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Ask for Price</span>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 property-item" data-location="Jumeirah Village Circle" data-bedrooms="Studio" data-price="0" data-name="V1TER Residence">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <!-- <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span> -->
+                                <img src="O1 V1TER/V1HP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="v1ter-residences.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">V1TER Residence</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Jumeirah Village Circle (JVC), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>Studio, 1, 2, and 3-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Ask for Price</span>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 property-item" data-location="Jumeirah Village Circle" data-bedrooms="Studio" data-price="0" data-name="1WOOD Residence">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <!-- <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span> -->
+                                <img src="O1 1WOOD/1WHP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="1wood-residences.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">1WOOD Residence</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Jumeirah Village Circle (JVC), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>Studio, 1, and 2-Bedroom </span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Ask for Price</span>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 property-item" data-location="Jumeirah Village Circle" data-bedrooms="Studio" data-price="0" data-name="OZONE1 Residence">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <!-- <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span> -->
+                                <img src="O1 OZONE1/OZHP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Ozone1-residences.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">OZONE1 Residence</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Jumeirah Village Circle (JVC), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>Studio, 1, and 2-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Ask for Price</span>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 property-item" data-location="Jumeirah Village Circle" data-bedrooms="Studio" data-price="0" data-name="F1FTH Tower">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <!-- <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span> -->
+                                <img src="O1 F1FTH/F1HP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="F1FTH Tower.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">F1FTH Tower</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Jumeirah Village Circle (JVC), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>Studio, 1, and 2-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Ask for Price</span>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                     <div class="col-md-6 property-item" data-location="Jumeirah Village Circle" data-bedrooms="Studio" data-price="0" data-name="TETR1S Tower">
+                        <div class="hover overflow-hidden relative text-light text-center wow zoomIn"
+                            data-wow-delay=".0s">
+                            <div class="wow scaleIn overflow-hidden">
+                                <!-- <span
+                                    class="position-absolute top-0 start-0 m-2 px-3 py-1 bg-light text-dark text-white badge z-2"
+                                    style="font-size: 0.85rem;">Featured</span> -->
+                                <img src="O1 TETR1S/TTHP.webp" class="hover-scale-1-1 w-100" alt="">
+                            </div>
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-main btn-line fx-slide" href="Tetr1s-tower.html"><span>View
+                                        Details</span></a>
+                            </div>
+                            <div class="abs bg-blur z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 p-30 w-100 text-center hover-op-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">TETR1S Tower</h3>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Jumeirah Village Circle (JVC), Dubai</span>
+                                    <span class="badge bg-dark"> <i class="fa-solid fa-bed me-1"></i>Studio, 1, and 2-Bedroom</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <span class="badge bg-dark">Apartment</span>
+                                    <span class="badge bg-light text-dark">Ask for Price</span>
+                                </div>
+                            </div>
+                            <div class="gradient-edge-bottom abs w-100 h-40 bottom-0"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Show More Button -->
+                <div class="row mt-4">
+                    <div class="col-12 text-center">
+                        <button id="showMoreBtn" class="btn-main btn-line fx-slide">
+                            <span>Show More Properties</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
 
@@ -493,7 +691,7 @@
                     <div class="col-lg-6">
                         <div class="relative">
                             <div class="w-100 wow scaleIn">
-                                <img src="images/misc/l1.webp" class="w-100 rounded-1" alt="">
+                                <img src="client.webp" class="w-100 rounded-1" alt="">
                             </div>
                         </div>
                     </div>
@@ -501,9 +699,17 @@
                         <div class="ps-lg-3"></div>
                         <!-- <h2 class="wow fadeInUp" data-wow-delay=".4s">Indus Real Estate</h2> -->
                         <h2 class=" wow fadeInUp" data-wow-delay=".2s">Dipti Nair</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Meet Dipti Nair, a certified Sales Consultant at Indus Real Estate with a valid RERA Broker License (BRN: 48604). Since 2021, Dipti has been delivering expert property advice in sought-after communities such as Jumeirah Village Circle (JVC) and Al Furjan.</p>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Known for her transparent communication and exceptional service, Dipti takes pride in helping clients navigate Dubai’s ever-evolving real estate market with confidence and ease. Whether you're a seasoned investor or a first-time homebuyer, she ensures your needs are met with professionalism, integrity, and care.</p>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">She is fluent in English, Hindi, and Marathi making your journey smoother—no matter where you’re from.</p>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Meet Dipti Nair, a certified Sales Consultant at
+                            Indus Real Estate with a valid RERA Broker License (BRN: 48604). Since 2021, Dipti has been
+                            delivering expert property advice in sought-after communities such as Jumeirah Village
+                            Circle (JVC) and Al Furjan.</p>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Known for her transparent communication and
+                            exceptional service, Dipti takes pride in helping clients navigate Dubai's ever-evolving
+                            real estate market with confidence and ease. Whether you're a seasoned investor or a
+                            first-time homebuyer, she ensures your needs are met with professionalism, integrity, and
+                            care.</p>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">She is fluent in English, Hindi, and Marathi making
+                            your journey smoother—no matter where you're from.</p>
                     </div>
                 </div>
             </div>
@@ -531,51 +737,60 @@
 
     </div>
 
-   <section id="section-testimonials" class="bg-light">
-    <div class="container">
-        <div class="row g-4 justify-content-center">
-            <div class="col-lg-12 text-center">
-                <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Testimonials</div>
-                <h2 class="wow fadeInUp" data-wow-delay=".2s">What Clients Say About Dipti Nair</h2>
+    <section id="section-testimonials" class="bg-light">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Testimonials</div>
+                    <h2 class="wow fadeInUp" data-wow-delay=".2s">What Clients Say About Dipti Nair</h2>
+                </div>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="testimonial-content p-4 rounded shadow-sm wow fadeInUp" data-wow-delay=".2s"
+                        style="background-color: #f9f9f9;">
+                        <p class="mb-3">
+                            "There is no better person than Dipti if you wanna buy a property. Her communication skills
+                            are outstanding, and her depth of market knowledge made us feel confident in our purchase
+                            decision. She is highly recommended!"
+                        </p>
+                        <div class="text-end">
+                            <strong>— Elena Mantzoutsou</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="testimonial-content p-4 rounded shadow-sm wow fadeInUp" data-wow-delay=".4s"
+                        style="background-color: #f9f9f9;">
+                        <p class="mb-3">
+                            "I have had this great opportunity to interact with Miss Dipti Nair at Indus Real Estate.
+                            She has been very sincere, frank, meticulous and patient in her work. She knows the UAE real
+                            estate scene like the back of her hand. I would most certainly recommend her."
+                        </p>
+                        <div class="text-end">
+                            <strong>— Rajini Sachin</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="testimonial-content p-4 rounded shadow-sm wow fadeInUp" data-wow-delay=".6s"
+                        style="background-color: #f9f9f9;">
+                        <p class="mb-3">
+                            "Exceptional service from Dipti – Highly Recommend! I had the pleasure of working with Dipti
+                            during my recent rental search, and I can't recommend her enough! She made the entire
+                            renting process so much easier and stress-free."
+                        </p>
+                        <div class="text-end">
+                            <strong>— Beth Cole</strong>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="row g-4 justify-content-center">
-            <div class="col-md-4">
-                <div class="testimonial-content p-4 rounded shadow-sm wow fadeInUp" data-wow-delay=".2s" style="background-color: #f9f9f9;">
-                    <p class="mb-3">
-                        “There is no better person than Dipti if you wanna buy a property. Her communication skills are outstanding, and her depth of market knowledge made us feel confident in our purchase decision. She is highly recommended!”
-                    </p>
-                    <div class="text-end">
-                        <strong>— Elena Mantzoutsou</strong>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="testimonial-content p-4 rounded shadow-sm wow fadeInUp" data-wow-delay=".4s" style="background-color: #f9f9f9;">
-                    <p class="mb-3">
-                        “I have had this great opportunity to interact with Miss Dipti Nair at Indus Real Estate. She has been very sincere, frank, meticulous and patient in her work. She knows the UAE real estate scene like the back of her hand. I would most certainly recommend her.”
-                    </p>
-                    <div class="text-end">
-                        <strong>— Rajini Sachin</strong>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="testimonial-content p-4 rounded shadow-sm wow fadeInUp" data-wow-delay=".6s" style="background-color: #f9f9f9;">
-                    <p class="mb-3">
-                        “Exceptional service from Dipti – Highly Recommend! I had the pleasure of working with Dipti during my recent rental search, and I can't recommend her enough! She made the entire renting process so much easier and stress-free.”
-                    </p>
-                    <div class="text-end">
-                        <strong>— Beth Cole</strong>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
 
 
@@ -1013,6 +1228,126 @@
         .callBtn {
             cursor: pointer;
         }
+
+        /* Search and Filter Styles */
+        .search-filter-container {
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .search-filter-container:hover {
+            background-color: rgba(255, 255, 255, 0.15) !important;
+        }
+
+        .search-filter-container .form-control {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: #333;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .search-filter-container .form-control:focus {
+            background-color: #fff;
+            border-color: #007bff;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+        .search-filter-container .form-control::placeholder {
+            color: #666;
+        }
+
+        .search-filter-container .btn-outline-light {
+            border-color: rgba(255, 255, 255, 0.5);
+            color: #fff;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .search-filter-container .btn-outline-light:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Property item animation */
+        .property-item {
+            transition: all 0.3s ease;
+        }
+
+        .property-item.hidden {
+            opacity: 0;
+            transform: scale(0.8);
+        }
+
+        /* Show More Button Styles */
+        #showMoreBtn {
+            transition: all 0.3s ease;
+            min-width: 200px;
+        }
+
+        #showMoreBtn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .search-filter-container .row {
+                margin: 0;
+            }
+            
+            .search-filter-container .col-md-2,
+            .search-filter-container .col-md-4 {
+                margin-bottom: 10px;
+            }
+        }
+
+        /* Video Styles */
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .hero-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 2;
+        }
+
+        .video-fallback {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: 1;
+        }
+
+        /* Ensure content above video is visible */
+        .vertical-center {
+            position: relative;
+            z-index: 3;
+        }
     </style>
 
     <script>
@@ -1124,6 +1459,125 @@
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Property Search and Filter Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('searchInput');
+            const locationFilter = document.getElementById('locationFilter');
+            const bedroomFilter = document.getElementById('bedroomFilter');
+            const priceFilter = document.getElementById('priceFilter');
+            const clearFiltersBtn = document.getElementById('clearFilters');
+            const showMoreBtn = document.getElementById('showMoreBtn');
+            const propertiesContainer = document.getElementById('propertiesContainer');
+            const propertyItems = document.querySelectorAll('.property-item');
+            
+            let visibleCount = 6;
+            let filteredItems = Array.from(propertyItems);
+            
+            // Initialize - hide properties beyond first 6
+            function initializeProperties() {
+                propertyItems.forEach((item, index) => {
+                    if (index >= 6) {
+                        item.style.display = 'none';
+                    }
+                });
+                updateShowMoreButton();
+            }
+            
+            // Filter properties based on search and filter criteria
+            function filterProperties() {
+                const searchTerm = searchInput.value.toLowerCase();
+                const selectedLocation = locationFilter.value;
+                const selectedBedrooms = bedroomFilter.value;
+                const selectedPriceRange = priceFilter.value;
+                
+                filteredItems = Array.from(propertyItems).filter(item => {
+                    const name = item.getAttribute('data-name').toLowerCase();
+                    const location = item.getAttribute('data-location');
+                    const bedrooms = item.getAttribute('data-bedrooms');
+                    const price = parseInt(item.getAttribute('data-price'));
+                    
+                    // Search filter
+                    const matchesSearch = name.includes(searchTerm);
+                    
+                    // Location filter
+                    const matchesLocation = !selectedLocation || location === selectedLocation;
+                    
+                    // Bedroom filter
+                    const matchesBedrooms = !selectedBedrooms || bedrooms === selectedBedrooms;
+                    
+                    // Price filter
+                    let matchesPrice = true;
+                    if (selectedPriceRange) {
+                        const [minPrice, maxPrice] = selectedPriceRange.split('-').map(Number);
+                        matchesPrice = price >= minPrice && price <= maxPrice;
+                    }
+                    
+                    return matchesSearch && matchesLocation && matchesBedrooms && matchesPrice;
+                });
+                
+                // Reset visible count and show filtered results
+                visibleCount = 6;
+                showFilteredProperties();
+            }
+            
+            // Show filtered properties
+            function showFilteredProperties() {
+                // Hide all properties first
+                propertyItems.forEach(item => {
+                    item.style.display = 'none';
+                });
+                
+                // Show filtered properties up to visible count
+                filteredItems.forEach((item, index) => {
+                    if (index < visibleCount) {
+                        item.style.display = 'block';
+                    }
+                });
+                
+                updateShowMoreButton();
+            }
+            
+            // Update show more button text and visibility
+            function updateShowMoreButton() {
+                if (filteredItems.length <= visibleCount) {
+                    showMoreBtn.style.display = 'none';
+                } else {
+                    showMoreBtn.style.display = 'inline-block';
+                    showMoreBtn.innerHTML = `<span>Show More Properties</span>`;
+                }
+            }
+            
+            // Show more properties
+            function showMoreProperties() {
+                visibleCount += 6;
+                showFilteredProperties();
+            }
+            
+            // Clear all filters
+            function clearAllFilters() {
+                searchInput.value = '';
+                locationFilter.value = '';
+                bedroomFilter.value = '';
+                priceFilter.value = '';
+                filteredItems = Array.from(propertyItems);
+                visibleCount = 6;
+                showFilteredProperties();
+            }
+            
+            // Event listeners
+            searchInput.addEventListener('input', filterProperties);
+            locationFilter.addEventListener('change', filterProperties);
+            bedroomFilter.addEventListener('change', filterProperties);
+            priceFilter.addEventListener('change', filterProperties);
+            clearFiltersBtn.addEventListener('click', clearAllFilters);
+            showMoreBtn.addEventListener('click', showMoreProperties);
+            
+            // Initialize on page load
+            initializeProperties();
+        });
+    </script>
 
 </body>
 
